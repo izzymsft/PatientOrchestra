@@ -9,7 +9,8 @@
     "durable-functions": "^1.2.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "sha1": "^1.1.1"
   },
   "devDependencies": {},
   "author": "Israel Ekpo",
