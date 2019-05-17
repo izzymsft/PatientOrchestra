@@ -1,0 +1,17 @@
+{
+  "name": "patientorchestra",
+  "version": "2.1.0",
+  "description": "An array of Javascript proxy activity functions and a long-running orchestrator",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "durable-functions": "^1.2.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "author": "Israel Ekpo",
+  "license": "Apache 2.0"
+}

@@ -1,0 +1,9 @@
+{
+  "bindings": [
+    {
+      "name": "patientVitals",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}
