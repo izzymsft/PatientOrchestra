@@ -44,5 +44,7 @@ module.exports = df.orchestrator(function*(context){
     output.push(diastolicVitals);
     output.push(systolicVitals);
 
+    // insert each row into the database via an activity function
+
     return output;
 });
