@@ -60,6 +60,7 @@ typings/
 # next.js build output
 .next
 
+# Folders and Files from Azure Functions Development in Node.js
 obj
 .vscode
-
+bin
