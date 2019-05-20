@@ -1,0 +1,9 @@
+{
+  "bindings": [
+    {
+      "name": "vitalStats",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}
