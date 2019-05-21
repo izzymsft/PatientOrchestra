@@ -20,3 +20,11 @@ CREATE TABLE dbo.PatientScores --- Table for Storing Patient Scores
     ScoreTimestamp datetime2 NOT NULL           --- The timestamp for the scoring event
 );
 
+CREATE TABLE dbo.PatientScores --- Table for Storing Patient Scores
+(
+    TransactionId int IDENTITY (1,1) NOT NULL,  --- Primary Key for the Score
+    PatientId VARCHAR(40) NOT NULL,             --- Identifies the Patient
+    Score DECIMAL(5,2) NOT NULL,   --- The score for the BP
+    ScoreTimestamp datetime2 NOT NULL           --- The timestamp for the scoring event
+);
+
