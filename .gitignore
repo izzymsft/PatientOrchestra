@@ -64,3 +64,4 @@ typings/
 obj
 .vscode
 bin
+local.settings.json

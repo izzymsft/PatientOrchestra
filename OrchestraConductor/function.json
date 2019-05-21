@@ -1,7 +1,7 @@
 {
   "bindings": [
     {
-      "name": "context",
+      "name": "patientVitalsParameters",
       "type": "orchestrationTrigger",
       "direction": "in"
     }

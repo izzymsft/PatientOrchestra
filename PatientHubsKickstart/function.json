@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "eventHubMessage",
+      "direction": "in",
+      "eventHubName": "jobinfo",
+      "connection": "EventHubConnection",
+      "cardinality": "one",
+      "consumerGroup": "functionsinfogroup"
+    },
+    {
+      "name": "starter",
+      "type": "orchestrationClient",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}
