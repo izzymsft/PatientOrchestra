@@ -7,7 +7,7 @@
       "eventHubName": "jobinfo",
       "connection": "EventHubConnection",
       "cardinality": "one",
-      "consumerGroup": "functionsinfogroup"
+      "consumerGroup": "stranalytics01"
     },
     {
       "name": "starter",

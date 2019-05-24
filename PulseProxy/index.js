@@ -4,8 +4,10 @@ const rp = require('request-promise');
 // Downstream function name
 const downstreamFunctionName = 'ComputePulse';
 
+const functionAppName = 'patientcore01';
+
 // Downstream Function endpoint
-const functionEndpoint = 'https://patientvitalscore.azurewebsites.net/api/' + downstreamFunctionName;
+const functionEndpoint = 'https://' + functionAppName + '.azurewebsites.net/api/' + downstreamFunctionName;
 
 // Starting a Synchronous Azure Function Declaration
 module.exports = function (context, patientVitals) {
